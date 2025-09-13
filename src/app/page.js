@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100">
       {/* Hero Section */}
-      <section className="bg-black text-white py-20 text-center">
+      <section className="bg-blue-600 text-white py-20 text-center">
         <h1 className="text-4xl md:text-6xl font-bold">🏍️ MotoGear</h1>
         <p className="mt-4 text-lg">Your one-stop shop for motorcycle parts & accessories</p>
         <button className="mt-6 bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold">
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-6 text-center">
+      <footer className="bg-blu text-white py-6 text-center">
         <p>© {new Date().getFullYear()} MotoGear. All rights reserved.</p>
       </footer>
     </main>
