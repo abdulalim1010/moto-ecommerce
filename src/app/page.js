@@ -31,6 +31,42 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Features Section */}
+<section className="max-w-6xl mx-auto py-20 px-6 grid md:grid-cols-2 gap-10 items-center">
+  {/* Left Side - Image */}
+  <div>
+    <img 
+      src="https://i.ibb.co/4PsNdsD/motorbike.jpg" 
+      alt="Motorcycle Feature" 
+      className="rounded-xl shadow-lg"
+    />
+  </div>
+
+  {/* Right Side - Text */}
+  <div>
+    <h2 className="text-3xl font-bold mb-4">Why Choose MotoGear?</h2>
+    <p className="text-gray-600 mb-6">
+      At MotoGear, we provide top-quality motorcycle parts, accessories, 
+      and safety gear. Whether you’re a daily rider or a passionate biker, 
+      our products are designed to keep you safe and stylish on the road.
+    </p>
+    
+    <ul className="space-y-3 text-gray-700">
+      <li className="flex items-center">
+        ✅ Durable and premium quality products
+      </li>
+      <li className="flex items-center">
+        ✅ Affordable prices for every biker
+      </li>
+      <li className="flex items-center">
+        ✅ Fast delivery and secure payments
+      </li>
+      <li className="flex items-center">
+        ✅ 24/7 customer support
+      </li>
+    </ul>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-blu text-white py-6 text-center">
