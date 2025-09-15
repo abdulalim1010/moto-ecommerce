@@ -66,7 +66,59 @@ export default function Home() {
       </li>
     </ul>
   </div>
+      </section>
+      {/* Motorcycle Parts Section */}
+<section className="max-w-6xl mx-auto py-20 px-6">
+  <h2 className="text-3xl font-bold text-center mb-10">Motorcycle Parts</h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    {/* Product 1 */}
+    <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+      <img 
+        src="https://i.ibb.co/6s2tgxH/helmet.jpg" 
+        alt="Helmet" 
+        className="rounded-md mb-4 w-full h-48 object-cover" 
+      />
+      <h3 className="font-bold text-lg">Racing Helmet</h3>
+      <p className="text-gray-600 mb-3">High quality, safe & stylish helmet.</p>
+      <p className="font-semibold mb-4">$120</p>
+      <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg w-full">
+        Buy Now
+      </button>
+    </div>
+
+    {/* Product 2 */}
+    <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+      <img 
+        src="https://i.ibb.co/Tv3T0nB/jacket.jpg" 
+        alt="Jacket" 
+        className="rounded-md mb-4 w-full h-48 object-cover" 
+      />
+      <h3 className="font-bold text-lg">Rider Jacket</h3>
+      <p className="text-gray-600 mb-3">Durable leather jacket for bikers.</p>
+      <p className="font-semibold mb-4">$180</p>
+      <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg w-full">
+        Buy Now
+      </button>
+    </div>
+
+    {/* Product 3 */}
+    <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+      <img 
+        src="https://i.ibb.co/ZBrkP4y/tires.jpg" 
+        alt="Tires" 
+        className="rounded-md mb-4 w-full h-48 object-cover" 
+      />
+      <h3 className="font-bold text-lg">Sport Tires</h3>
+      <p className="text-gray-600 mb-3">High grip tires for sports bikes.</p>
+      <p className="font-semibold mb-4">$250</p>
+      <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg w-full">
+        Buy Now
+      </button>
+    </div>
+  </div>
 </section>
+
 
       {/* Footer */}
       <footer className="bg-blu text-white py-6 text-center">
